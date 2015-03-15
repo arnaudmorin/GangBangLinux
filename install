@@ -10,4 +10,4 @@ sudo apt-get purge xarchiver
 
 
 
-sudo apt-get install xinit openbox xdm tint2 openbox-menu terminator git nitrogen pcmanfm geany vlc htop suckless-tools gimp
+sudo apt-get install xinit openbox xdm tint2 openbox-menu terminator git nitrogen pcmanfm geany vlc htop suckless-tools gimp chromium-browser firefox thunderbird gstreamer0.10-nice gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-x pidgin filezilla transmission gmrun 
