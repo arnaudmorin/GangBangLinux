@@ -492,13 +492,6 @@
 					</command>
 				</action>
 			</item>
-			<item label="SLIM Login Manager Settings">
-				<action name="Execute">
-					<command>
-						gksudo geany /etc/slim.conf
-					</command>
-				</action>
-			</item>
 		</menu>
 		<separator/>
 		<item label="Lock Screen">
