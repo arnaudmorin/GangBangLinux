@@ -1,0 +1,23 @@
+@import url("theme/gtkwidget.gtk3");
+@import url("theme/gtkdialogs.gtk3");
+@import url("theme/gtkstatusbar.gtk3");
+@import url("theme/gtktoolbar.gtk3");
+@import url("theme/gtkframe.gtk3");
+@import url("theme/gtknotebook.gtk3");
+@import url("theme/gtktreeview.gtk3");
+@import url("theme/gtkiconview.gtk3");
+@import url("theme/gtkentry.gtk3");
+@import url("theme/gtkbutton.gtk3");
+@import url("theme/gtkspinbutton.gtk3");
+@import url("theme/gtkscrollbar.gtk3");
+@import url("theme/gtkscale.gtk3");
+@import url("theme/gtkswitch.gtk3");
+@import url("theme/gtkpaned.gtk3");
+@import url("theme/gtkprogressbar.gtk3");
+@import url("theme/gtktooltip.gtk3");
+@import url("theme/gtkmenu.gtk3");
+@import url("theme/gtkcheckbutton.gtk3");
+@import url("theme/gtkinfobar.gtk3");
+@import url("theme/gtkheaderbar.gtk3");
+@import url("theme/gnome-stuff.gtk3");
+

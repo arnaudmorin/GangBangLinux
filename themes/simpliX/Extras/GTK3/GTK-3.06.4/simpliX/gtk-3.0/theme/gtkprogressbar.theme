@@ -1,0 +1,6 @@
+GtkProgressBar, GtkTreeView GtkProgressBar{
+background-color:#fff;
+border:1px solid #dadada;}
+
+GtkProgressBar.progressbar, GtkTreeView GtkProgressBar.progressbar{
+background-color:#292929;}

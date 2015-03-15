@@ -1,0 +1,21 @@
+GtkButton{
+-GtkButton-default-outside-border:0;
+-GtkButton-default-border:0;
+-GtkButton-shadow-type:none;
+-GtkButton-image-spacing:5;
+-GtkButton-interior-focus:false;
+-GtkButton-inner-border:2;
+background-color:#fafafa;
+border:1px solid #dadada;}
+
+GtkButton :hover, GtkButton:hover{
+background-color:#fff;}
+
+GtkButton:active, GtkButton :active{
+background-color:#efefef;}
+
+GtkButton GtkLabel{
+padding:1px 5px;}
+
+GtkComboBox GtkMenu :hover{
+color:#fff;}

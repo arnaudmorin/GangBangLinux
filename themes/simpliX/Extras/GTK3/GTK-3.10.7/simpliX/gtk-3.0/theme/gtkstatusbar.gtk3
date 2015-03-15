@@ -1,0 +1,7 @@
+GtkStatusbar>.frame {
+background:transparent;
+border:none;}
+
+.grip {
+background-color:transparent;
+background-image:url("../images/resizegrip.gif");}

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Nitrogen background
+nitrogen --restore
+
+# Wait a little
+sleep 1
+
+# Tint2 (top bar)
+tint2 &
+
+# Volume daemon
+xfce4-volumed &
+
+# Volume systray
+pnmixer &
+
+# Energy daemon
+xfce4-power-manager &
+
+# Screensaver daemon
+xscreensaver -no-splash &
+
+# Conky (background applets)
+
+# SparkleShare
+sparkleshare start

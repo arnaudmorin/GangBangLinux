@@ -1,0 +1,14 @@
+GtkSwitch.trough{
+background-color:#fff;
+border: 1px solid #dadada;}
+
+GtkSwitch.trough:active{
+color:#e04613;}
+
+GtkSwitch.slider{
+-GtkButton-default-outside-border:0;
+-GtkButton-default-border:0;
+-GtkButton-shadow-type:none;
+-GtkWidget-focus-line-width:0;
+background-color:#fafafa;
+border:1px solid #dadada;}

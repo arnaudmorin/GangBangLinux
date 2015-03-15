@@ -1,0 +1,28 @@
+GtkTreeView, GtkListStore, GtkTextView, GtkTreeView row{
+-GtkTreeView-expander-size:11px;
+-GtkTreeView-indicator-size:11px;
+background-color:#fff;}
+
+GtkTreeView column-header .button{
+background-color:#fafafa;
+border-width:0px 1px 1px 0px;
+border-color:#dadada;
+border-style:solid;
+padding:2px;}
+
+GtkTreeView column-header .button :hover{
+background-color:#fafafa;}
+
+GtkTreeView row:nth-child(even){
+background-color:#fff;}
+
+GtkTreeView row:nth-child(odd){
+background-color:#fafafa; }
+
+GtkTreeView row:selected, GtkTextView:selected{
+background-color:#292929;
+color:#fff;}
+
+GtkTreeView row:selected:focused{
+background-color:#292929;
+color:#fff;}

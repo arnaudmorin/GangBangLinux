@@ -1,0 +1,33 @@
+NautilusWindow .toolbar{
+border-top: 3px solid #e04613;}
+
+NautilusWindow .view{
+background-color:#fff;
+color:#000;
+}
+
+NautilusWindow .view:selected{
+background-color:#292929;
+border-radius: 0px;
+color:#fff;
+}
+
+NautilusWindow .view.rubberband{
+border: 1px solid #292929;
+background-color: alpha(#292929, 0.20);}
+
+NautilusWindow .view .entry {
+-GtkEntry-icon-prelight:0;
+-GtkEntry-inner-border:5;
+-GtkEntry-shadow-type:none;
+background-color:#fff;
+border: 1px solid #dadada;
+color:#000;}
+
+NautilusWindow .view .entry:insensitive{
+background-color:#fafafa;
+color:#555;}
+
+NautilusWindow .view .entry:selected{
+background-color:#292929;
+color:#fff;}

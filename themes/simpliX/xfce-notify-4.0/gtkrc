@@ -1,0 +1,41 @@
+style "xfnotifywindow"
+{
+XfceNotifyWindow::border-color="#dadada"
+XfceNotifyWindow::border-color-hover="#dadada"
+XfceNotifyWindow::border-radius=0
+XfceNotifyWindow::border-width=2
+XfceNotifyWindow::border-width-hover=2
+bg[NORMAL] = "#292929" 
+fg[NORMAL] = "#fff"
+fg[PRELIGHT] = "#fff" 
+engine"pixmap"
+{
+image
+{
+function=SHADOW
+stretch=TRUE
+file="images/shadow-notify.gif"
+stretch=TRUE
+border={1,1,1,1}
+}
+}
+}
+widget_class "*XfceNotifyWindow*" style "xfnotifywindow"
+
+style "xfnotifywindowbutton"
+{
+bg[NORMAL] = "#292929" 
+bg[PRELIGHT]="#393939"
+bg[ACTIVE]="#393939"
+bg[SELECTED]="#393939"
+}
+widget_class "*XfceNotifyWindow*GtkButton" style "xfnotifywindowbutton"
+
+style "xfnotifywindowprogressbar"
+{
+bg[NORMAL] = "#252525" 
+bg[PRELIGHT]="#888888"
+bg[ACTIVE]="#888888"
+bg[SELECTED]="#888888"
+}
+widget_class "*XfceNotifyWindow*GtkProgressBar" style "xfnotifywindowprogressbar"

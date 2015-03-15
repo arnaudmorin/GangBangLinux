@@ -1,0 +1,27 @@
+GtkHeaderBar .separator{
+color:transparent;
+background:transparent;}
+
+.titlebar{
+background:#292929;
+color:#fff;}
+
+.titlebar .title{
+font-weight:bold;}
+
+GtkHeaderBar.titlebar{
+background:#292929;
+color:#fff;
+padding:2px 5px;
+border-bottom: 3px solid #e04613;}
+
+GtkHeaderBar .button,
+GtkHeaderBar GtkButton,
+GtkHeaderBar GtkButton:hover,
+GtkHeaderBar GtkButton:active{
+border:none;
+background:#292929;
+color:#fff;}
+
+
+

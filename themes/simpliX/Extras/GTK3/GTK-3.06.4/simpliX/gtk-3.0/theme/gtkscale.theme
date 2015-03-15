@@ -1,0 +1,23 @@
+GtkScale {
+-GtkScrollbar-min_slider_length:15;
+-GtkRange-slider-width:5;
+-GtkRange-trough-under-steppers:0;
+-GtkRange-activate-slider:1;
+-GtkRange-arrow-displacement-x:0;
+-GtkRange-arrow-displacement-y:0;
+-GtkRange-arrow-scaling:1.0;
+-GtkRange-stepper-size:0;
+-GtkRange-stepper-spacing:0;
+-GtkRange-trough-border:1;
+-GtkRange-shadow-type:none;
+background-color:transparent;}
+
+GtkScale.trough{
+background-color:#fff;
+border: 1px solid #dadada;}
+
+GtkScale.slider{
+background-color:#e04613;}
+
+GtkScale.slider:insensitive{
+background-color:#fff;}

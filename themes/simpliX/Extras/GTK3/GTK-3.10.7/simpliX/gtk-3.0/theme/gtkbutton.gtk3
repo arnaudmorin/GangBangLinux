@@ -1,0 +1,29 @@
+GtkButton {
+-GtkButton-shadow-type:none;
+-GtkButton-image-spacing:2;
+-GtkButton-interior-focus:false;
+-GtkButton-inner-border:2;
+background:transparent;
+border:1px solid #dadada;}
+
+GtkToolbar GtkButton.button:first-child {
+border-right:none;}
+
+GtkToolBar GtkButton.button:last-child {
+border-left:none;}
+
+GtkButton:hover{
+background-color:#fff;}
+
+GtkButton:active,
+GtkToolButton:active{
+background-color:#efefef;}
+
+/*this seems to fix the inner-button-border on the GtkAppChooserButton
+eg: gtk demo pickers*/
+GtkButton {
+padding:1px;}
+
+GtkToolbar GtkButton{
+padding:0px;
+margin:0px;}

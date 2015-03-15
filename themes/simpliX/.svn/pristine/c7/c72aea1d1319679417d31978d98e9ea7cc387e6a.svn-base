@@ -1,0 +1,18 @@
+GtkInfoBar{
+	border: 1px solid #dadada;}
+
+GtkInfoBar.info, GtkInfoBar.info GtkLabel{
+	background-color: #ffffbf;}
+
+GtkInfoBar.warning, GtkInfoBar.warning GtkLabel{
+	background-color: #fcaf3e;}
+
+GtkInfoBar.question, GtkInfoBar.question GtkLabel{
+	background-color: #8cb0d7;}
+
+GtkInfoBar.error, GtkInfoBar.error GtkLabel{
+	background-color: #f03838;}
+
+
+GtkInfoBar.info GtkButton GtkLabel, GtkInfoBar.warning GtkButton GtkLabel, GtkInfoBar.question GtkButton GtkLabel, GtkInfoBar.error GtkButton GtkLabel{
+	background-color: transparent;}

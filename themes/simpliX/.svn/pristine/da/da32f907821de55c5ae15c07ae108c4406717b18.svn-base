@@ -1,0 +1,44 @@
+GtkMenuBar {
+background:#292929;
+padding:0px 3px;
+box-shadow:inset 0px -3px 0px 0px #e04613;}
+
+GtkMenuBar>GtkMenuItem {
+color:#fff;
+padding:1px 4px;
+padding-bottom:4px;}
+
+GtkMenuBar>GtkMenuItem:hover {
+background:#e04613;}
+
+GtkMenuBar>GtkMenuItem>GtkLabel {
+color:#fff;}
+
+GtkMenu {
+padding:1px;
+background:#fff;
+border:1px solid #b3b3b3;}
+
+GtkMenu>GtkMenuItem {
+-GtkMenuItem-arrow-scaling:0.5;
+padding:4px 4px;}
+
+GtkMenu>GtkMenuItem:hover,
+GtkMenu>GtkMenuItem:active {
+color:#fff;
+background:#292929;}
+
+GtkMenu>GtkSeparatorMenuItem{
+-GtkWidget-shadow-type:none;
+-GtkWidget-wide-separators:1;
+-GtkWidget-horizontal-separator:0px;
+-GtkWidget-vertical-separator:0px;
+padding:0px;
+color:transparent;
+background:transparent;}
+
+GtkComboBox GtkMenu:hover{
+color:#fff;}
+
+
+

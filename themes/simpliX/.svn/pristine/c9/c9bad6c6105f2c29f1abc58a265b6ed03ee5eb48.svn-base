@@ -1,0 +1,38 @@
+########################################################################
+# Displays the orange stripe at the toolbar useful if you hide the
+# Menubar will look strange if you have more than one toolbar.
+########################################################################
+include "theme/thunar.gtk2"
+include "theme/viewnior-toolbar.gtk2"
+#include "theme/midori.gtk2" 
+########################################################################
+# choose your panel theme (you can only use one!)
+# the first one can be used on any edge and requires to set the panel color to #292929
+# the other one can only be used at the bottom at 100% and with panelbg-bottom.gif as panelbg image
+# comment both for white
+########################################################################
+#include "theme/xfcepanel.gtk2"
+#include "theme/xfcepanel100percent-bottom.gtk2" 
+########################################################################
+#show(comment all three lines) or hide the panel tasklist icons
+########################################################################
+#style"xftasklist"{
+#XfceTasklist::minimized-icon-lucency=0}
+#class"GtkWidget"style"xftasklist"
+########################################################################
+# gtk settings see
+# http://developer.gnome.org/gtk2/2.24/GtkSettings.html#GtkSettings.properties
+########################################################################
+gtk-menu-images=0
+gtk-button-images=0
+gtk-theme-name=simpliX
+gtk-icon-theme-name = "Tango"
+gtk-toolbar-icon-size=2
+gtk-icon-sizes="panel-menu=16,16:gtk-dialog=48,48:gtk-small-toolbar=16,16:gtk-large-toolbar=16,16:gtk-menu=16,16:gtk-button=16,16"
+gtk-menu-popup-delay=50
+gtk-enable-mnemonics=0
+gtk-auto-mnemonics=0
+gtk-enable-accels=1
+gtk-error-bell=0
+gtk-toolbar-style=GTK_TOOLBAR_ICONS
+gtk-tooltip-timeout=2000

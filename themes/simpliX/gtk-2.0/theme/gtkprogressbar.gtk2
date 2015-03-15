@@ -1,0 +1,14 @@
+style"gtkprogressbar"
+{
+xthickness=0
+ythickness=0
+bg[NORMAL]="#fff"
+bg[PRELIGHT]="#292929"
+base[SELECTED]="#292929"
+bg[ACTIVE]="#292929"
+bg[INSENSITIVE]="#fafafa"
+base[NORMAL]="#fff"
+text[PRELIGHT]="#555"
+fg[PRELIGHT]="#fff"
+engine"mist"{}}
+class"GtkProgressBar"style"gtkprogressbar"

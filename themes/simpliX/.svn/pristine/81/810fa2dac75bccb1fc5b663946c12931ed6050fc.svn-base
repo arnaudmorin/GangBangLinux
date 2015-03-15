@@ -1,0 +1,7 @@
+GtkEntry GtkSpinButton{
+-GtkSpinButton-shadow-type:none;
+background-color:transparent;
+border-left:1px solid #dadada;
+border-bottom:none;
+border-top:none;
+border-right:none;}

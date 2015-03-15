@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=simpliX
+Type=X-GNOME-Metatheme
+Comment=A theme made for speed
+Encoding=UTF-8
+GtkTheme=simpliX
+MetacityTheme=simpliX
+IconTheme=Tango
+CursorTheme=DMZ-Black
+CursorSize=24

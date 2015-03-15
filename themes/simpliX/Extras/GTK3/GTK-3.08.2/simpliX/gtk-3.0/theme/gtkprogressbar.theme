@@ -1,0 +1,16 @@
+GtkProgressBar,
+GtkTreeView GtkProgressBar,
+.entry.progressbar,
+GtkProgressBar,
+.toolbar GtkProgressBar,
+.entry GtkProgressBar,
+.progressbar row,
+GtkProgressBar row:hover,
+GtkProgressBar row:selected,
+GtkProgressBar row:selected:focused{
+background-color:#fff;
+border:1px solid #dadada;}
+
+GtkProgressBar.progressbar,
+GtkTreeView GtkProgressBar.progressbar{
+background-color:#292929;}

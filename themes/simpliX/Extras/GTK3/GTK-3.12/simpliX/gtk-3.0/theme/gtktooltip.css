@@ -1,0 +1,7 @@
+.tooltip {
+	background-color: #fafafa;
+	border: 1px solid #000;
+	padding: 0px;}
+	
+.tooltip *{
+	background-color: transparent;}

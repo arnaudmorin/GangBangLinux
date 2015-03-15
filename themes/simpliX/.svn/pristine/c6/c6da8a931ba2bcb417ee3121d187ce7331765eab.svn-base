@@ -1,0 +1,11 @@
+GtkStackSwitcher GtkToggleButton{
+background-color:transparent;}
+
+GtkStackSwitcher GtkToggleButton:hover{
+background-color:rgba(255,255,255,0.1);}
+
+GtkStackSwitcher GtkToggleButton:active{
+background-color:rgba(255,255,255,0.2);}
+
+
+

@@ -1,0 +1,33 @@
+VteTerminal {
+background:#292929;
+color:#efefef;}
+
+.nautilus-canvas-item:active,
+.nautilus-canvas-item:selected {
+background:#292929;
+color:#fff;
+border-radius:5px;}
+
+NautilusWindow .view{
+background:#ffffff;}
+
+NautilusWindow .view .entry {
+-GtkEntry-icon-prelight:0;
+-GtkEntry-inner-border:5;
+-GtkEntry-shadow-type:none;
+background-color:#efefef;
+border: 1px solid #dadada;}
+
+NautilusWindow .view .entry:selected{
+background-color:#292929;
+color:#fff;}
+
+NautilusWindow .view.rubberband{
+border: 1px solid #292929;
+background-color: alpha(#292929, 0.20);}
+
+NautilusWindow GtkToolbar,
+EphyWindow,
+EvWindow,
+MathWindow {
+border-top: 3px solid #e04613;}

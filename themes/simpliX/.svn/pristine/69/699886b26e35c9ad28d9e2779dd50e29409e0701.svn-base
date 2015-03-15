@@ -1,0 +1,13 @@
+GtkIconView{
+background:transparent;
+color:#555;}
+
+GtkIconView:selected{
+background:#292929;
+border-radius: 0px;
+color:#fff;}
+
+GtkIconView.rubberband{
+border: 1px solid #292929;
+background-color: alpha(#292929, 0.20);}
+

@@ -1,0 +1,45 @@
+; simpliX MPlayer Skin
+section = movieplayer
+window = main
+  base       = window/main, -1, -2
+  font       = windowtext, windowtext
+  button     = window/close,   5,  40, 29,  19, evExit
+  button     = window/hide,   35,  40, 29,  19, evIconify
+  button     = window/full,    65, 40, 29, 19, evFullScreen
+  button     = window/back,     95, 40, 29, 19, evBackward1min
+  button     = window/stop,    125, 40, 29, 19, evStop
+  button     = window/pause,   155, 40, 29, 19, evPauseSwitchToPlay
+  button     = window/play,    155, 40, 29, 19, evPlaySwitchToPause
+  button     = window/forward, 185, 40, 29, 19, evForward1min
+  button     = window/eq,    215, 40, 29, 19, evEqualizer
+  button     = window/sub,     245, 40, 30, 19, evLoadSubtitle
+  button     = window/pref,    276, 40, 29, 19, evPreferences
+  hpotmeter = window/volume, 00, 00, window/vol,   17, 50, 240, 7,  63, 18, evSetVolume
+  hpotmeter  = window/pos, 5, 5, NULL, 0,   0, 7, 28, 299, 5, evSetMoviePosition
+  dlabel     = 6, 11, 174, 0, windowtext, "$o"
+  dlabel     = 186, 11, 52, 0, windowtext, "($1)"
+
+end
+window = playbar
+  base       = fullscreen/main, -1, -2
+  font       = fullscreentext, fullscreentext
+  dlabel     = 304, 3, 73, 1, fullscreentext, "$1"
+  hpotmeter  = window/pos, 20, 5, NULL, 0,   0, 5, 5, 316, 9, evSetMoviePosition
+  hpotmeter = window/volume, 00, 00, fullscreen/vol,   17, 50, 311, 17,  63, 18, evSetVolume
+  button     = window/close,   5,  16, 29,  19, evExit
+  button     = window/hide,   35,  16, 29,  19, evIconify
+  button     = window/full,    65, 16, 29, 19, evFullScreen
+  button     = window/back,     95, 16, 29, 19, evBackward1min
+  button     = window/stop,    125, 16, 29, 19, evStop
+  button     = window/pause,   155, 16, 29, 19, evPauseSwitchToPlay
+  button     = window/play,    155, 16, 29, 19, evPlaySwitchToPause
+  button     = window/forward, 185, 16, 29, 19, evForward1min
+  button     = window/eq,    215, 16, 29, 19, evEqualizer
+  button     = window/sub,     245, 16, 30, 19, evLoadSubtitle
+  button     = window/pref,    276, 16, 29, 19, evPreferences
+end
+window      = sub
+  base       = window/window,  -1,-1
+  background = 41, 41, 41
+end
+end

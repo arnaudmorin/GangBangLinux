@@ -1,0 +1,6 @@
+GtkWindow GtkFrame {
+background:transparent;
+border:1px solid #dadada;}
+
+GtkScrolledWindow.frame {
+border:1px solid #dadada;}
