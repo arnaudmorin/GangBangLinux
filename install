@@ -10,4 +10,4 @@ sudo apt-get purge xarchiver
 
 
 
-sudo apt-get install xinit openbox xdm tint2 openbox-menu terminator
+sudo apt-get install xinit openbox xdm tint2 openbox-menu terminator git
