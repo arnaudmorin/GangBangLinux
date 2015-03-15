@@ -72,5 +72,33 @@ sudo chown $USER:$USER GangBangLinux/ -R
 
 ### Install files
 
-cp GangBangLinux/
+```bash
+cp -r GangBangLinux/themes/ ~/.themes
+cp -r GangBangLinux/config/ ~/.config
+cp -r GangBangLinux/xscreensaver ~/.xscreensaver
+sudo cp -r GangBangLinux/bin/* /usr/local/bin/
+sudo chmod +x /usr/local/bin/*
+```
 
+### Create defaults home dir
+
+```bash
+mkdir ~/{downloads,documents,videos,images}
+```
+
+### Check network config
+Comment out or remove any network configuration in /etc/network/interfaces, so that Network Manager handle the network instead of this file.
+
+You should only have those lines:
+
+```bash
+# The loopback network interface
+auto lo
+iface lo inet loopback
+```
+
+### Reboot
+
+```bash
+sudo reboot
+```
