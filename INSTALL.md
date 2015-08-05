@@ -35,6 +35,12 @@ deb http://extras.ubuntu.com/ubuntu utopic main
 deb-src http://extras.ubuntu.com/ubuntu utopic main
 ```
 
+Add the extras key:
+
+```bash
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 16126D3A3E5C1192
+```
+
 #### Add PPA
 Add this two PPA:
 
