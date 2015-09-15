@@ -13,13 +13,12 @@
     scrollback_lines = 5000
     background_type = transparent
     use_system_font = False
-    cursor_color = "#000000"
-    foreground_color = "#000000"
+    cursor_color = "#dadada"
+    foreground_color = "#ffffff"
     scroll_on_output = False
     show_titlebar = False
     color_scheme = custom
     font = Monospace 12
-    background_color = "#ffffff"
     scrollback_infinite = True
 [layouts]
   [[default]]
