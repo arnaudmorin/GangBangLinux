@@ -32,6 +32,8 @@ cd GangBangLinux/
 ansible-playbook -i hosts --ask-become-pass site.yml
 ```
 
+The playbook will install and configure your computer. This may take a while. You can have some logs about the installing packages by tailing the /Var/log/apt/term.log file.
+
 ### Check network config
 Comment out or remove any network configuration in /etc/network/interfaces, so that Network Manager handle the network instead of this file.
 
