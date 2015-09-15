@@ -3,7 +3,6 @@
 
 - name: install gangbang linux on a fresh ubuntu vivid install
   hosts: all
-  remote_user: ubuntu
   become: yes
 
   roles:

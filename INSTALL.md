@@ -13,7 +13,10 @@ At the end, you will be ask to install subsequent software: do **not** select an
 ### Install dependencies
 
 ```bash
-sudo apt-get install git ansible
+sudo apt-get install git vim software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update
+sudo apt-get install ansible
 ```
 
 ### Clone this repo
@@ -26,7 +29,7 @@ git clone https://github.com/arnaudmorin/GangBangLinux.git
 
 ```bash
 cd GangBangLinux/
-
+ansible-playbook -i hosts --ask-become-pass site.yml
 ```
 
 ### Check network config
