@@ -1,4 +1,5 @@
 ---
+role_dir: "{{ lookup('pipe','pwd')|dirname }}"
 packages:
  - network-manager
  - meld
