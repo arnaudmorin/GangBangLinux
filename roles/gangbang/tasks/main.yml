@@ -26,16 +26,14 @@
 - name: Copy binaries
   copy: src=bin/ dest=/usr/local/bin/ mode=a+x
 
-- name: Copy config and themes to home dir
+- name: Copy config and themes to home dir (ssh)
   synchronize: src={{ item }}/ dest=/home/{{ ansible_env.SUDO_USER }}/.{{ item }}/
   with_items:
     - themes
     - config
   when: ansible_connection != "local"
 
-- debug: "{{ role_dir }}"
-
-- name: Copy config and themes to home dir
+- name: Copy config and themes to home dir (local)
   command: cp -ar {{ role_dir }}/files/{{ item }}/ /home/{{ ansible_env.SUDO_USER }}/.{{ item }}/
   delegate_to: 127.0.0.1
   with_items:
