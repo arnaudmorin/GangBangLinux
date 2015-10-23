@@ -13,13 +13,16 @@ tint2 &
 xfce4-volumed &
 
 # Volume systray
-pnmixer &
+#pnmixer &
 
 # Energy daemon
-xfce4-power-manager &
+#xfce4-power-manager &
 
 # Screensaver daemon
 xscreensaver -no-splash &
+
+# Keyboard map
+setxkbmap fr
 
 # Conky (background applets)
 

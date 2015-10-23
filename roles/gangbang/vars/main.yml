@@ -7,7 +7,6 @@ packages:
  - ssh
  - file-roller
  - gksu
- - viewnior
  - xfce4-screenshooter
  - pavucontrol
  - gstreamer1.0-plugins-bad
@@ -65,10 +64,14 @@ packages:
  - language-pack-gnome-fr-base
  - obmenu
  - oneko
- - pnmixer
  - xterm
  - zenity
- - oracle-java8-installer
  - adobe-flashplugin
  - vim
  - gsimplecal
+ - geeqie
+ - scrot
+ - obconf
+ - python3.4-venv
+ - python3-dev
+ - libidn11-dev

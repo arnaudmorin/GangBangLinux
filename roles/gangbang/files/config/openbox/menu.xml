@@ -93,10 +93,10 @@
 					</command>
 				</action>
 			</item>
-			<item label="Viewnior Image Viewer">
+			<item label="Geeqie Image Viewer">
 				<action name="Execute">
 					<command>
-						viewnior
+						geeqie
 					</command>
 				</action>
 			</item>
@@ -166,7 +166,14 @@
 			<item label="Pidgin">
 				<action name="Execute">
 					<command>
-						p
+						pidgin
+					</command>
+				</action>
+			</item>
+            <item label="Gajim">
+				<action name="Execute">
+					<command>
+						gajim
 					</command>
 				</action>
 			</item>
@@ -294,7 +301,7 @@
 				<item label="Edit start-up script">
 					<action name="Execute">
 						<command>
-							geany /usr/local/bin/dmenu-bind.sh
+							geany ~/bin/dmenu-bind.sh
 						</command>
 					</action>
 				</item>
@@ -397,7 +404,7 @@
 				<item label="Restart tint2">
 					<action name="Execute">
 						<command>
-							tint2_restart.sh
+							~/bin/tint2_restart.sh
 						</command>
 					</action>
 				</item>
@@ -504,7 +511,7 @@
 		<item label="Exit">
 			<action name="Execute">
 				<command>
-					cb-exit
+					~/bin/exit
 				</command>
 			</action>
 		</item>
