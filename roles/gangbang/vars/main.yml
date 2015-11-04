@@ -77,4 +77,4 @@ packages:
  - libidn11-dev
 
 # i3:
-# scrot meld libreoffice inkscape arandr terminator git nitrogen dunst suckless-tools geany vlc htop gstreamer0.10-nice  gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-x filezilla oneko python3.4-venv python3-dev geeqie vim mono-runtime
+# scrot meld libreoffice inkscape arandr terminator git nitrogen dunst suckless-tools geany vlc htop gstreamer0.10-nice  gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-x filezilla oneko python3.4-venv python3-dev geeqie vim mono-complete
